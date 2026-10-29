@@ -1,0 +1,26 @@
+# ═══════════════════════════════════════════════
+#  Portfolio Cighra Cendikia — Git ignore rules
+# ═══════════════════════════════════════════════
+
+# Local helper scripts & logs (not part of the site)
+remove-bg.ps1
+bg-log.txt
+
+# Kiro session notes (private working notes)
+kiro-notes/
+
+# CV — private document (contains personal contact info)
+# Comment the next line out if you WANT the CV published on GitHub.
+assets/cv/
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
