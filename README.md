@@ -35,7 +35,7 @@ A fast, dependency-free personal portfolio for a DevOps Engineer. Pure HTML, CSS
 ## 📁 Project Structure
 
 ```
-portfolio-cighra/
+portfolio/
 ├── index.html          # Single-page site
 ├── css/
 │   └── styles.css      # All styles (dark + light theme)
@@ -64,7 +64,7 @@ Deployed as static files behind **Nginx** on an **Ubuntu 24.04 LTS** VPS.
 ```bash
 # On the server
 sudo apt update && sudo apt install nginx git -y
-git clone https://github.com/cigraaa/portfolio-cighra.git /var/www/portfolio
+git clone https://github.com/cigraaa/portfolio.git /var/www/portfolio
 # point an Nginx server block at /var/www/portfolio
 ```
 
