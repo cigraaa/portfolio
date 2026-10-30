@@ -2,10 +2,6 @@
 #  Portfolio Cighra Cendikia — Git ignore rules
 # ═══════════════════════════════════════════════
 
-# Local helper scripts & logs (not part of the site)
-remove-bg.ps1
-bg-log.txt
-
 # Kiro session notes (private working notes)
 kiro-notes/
 

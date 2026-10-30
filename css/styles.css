@@ -307,7 +307,7 @@ ul { list-style: none; }
 .hero-photo-wrap { position: relative; flex-shrink: 0; }
 
 .hero-photo-ring {
-  width: 240px; height: 280px;
+  width: 230px; height: 300px;
   border-radius: 16px;
   position: relative;
   background: var(--bg-card);
@@ -360,6 +360,14 @@ ul { list-style: none; }
     brightness(0.88)     /* slightly darker overall */
     contrast(1.08);      /* keep face detail crisp */
   position: relative; z-index: 1;
+}
+
+/* Formal portrait (white background): fill the frame, focus on the face */
+.hero-photo-png {
+  object-fit: cover;
+  object-position: center 18%;   /* bias toward the face, trim empty top */
+  /* Gently warm & soften the bright white studio background */
+  filter: saturate(0.92) brightness(0.97) contrast(1.02);
 }
 
 /* Gradient fade: photo bleeds into dark at bottom */
@@ -1165,7 +1173,7 @@ a.contact-val:hover { color: var(--accent); }
   .hero-desc { margin: 0 auto 24px; }
   .hero-tags { justify-content: center; }
   .hero-cta { justify-content: center; }
-  .hero-photo-ring { width: 180px; height: 210px; }
+  .hero-photo-ring { width: 185px; height: 245px; }
   .nav-links { display: none; }
   .nav-links.open {
     display: flex;
